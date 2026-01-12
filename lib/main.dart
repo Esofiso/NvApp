@@ -450,7 +450,10 @@ class _AnaSayfaState extends State<AnaSayfa> {
               end: Alignment.bottomCenter);
         case 1:
           return const LinearGradient(
-              colors: [Color.fromARGB(255, 218, 168, 114), Color.fromARGB(255, 228, 199, 119)],
+              colors: [
+                Color.fromARGB(255, 218, 168, 114),
+                Color.fromARGB(255, 228, 199, 119)
+              ],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter);
         case 2:
@@ -590,7 +593,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
                   left: 0,
                   right: 0,
                   height: MediaQuery.of(context).padding.top,
-                  child: Container(color: Colors.black.withValues(alpha: 0.3)),
+                  child:
+                      Container(color: Colors.black.withValues(alpha: 0.3)),
                 ),
 
               !veriYuklendi
@@ -674,8 +678,12 @@ class _AnaSayfaState extends State<AnaSayfa> {
                               return Opacity(
                                 opacity: gecmisMi ? 0.35 : 1.0,
                                 child: Container(
+                                  // --- GÜNCELLEME BURADA YAPILDI ---
+                                  // Margin 4 -> 6 artırıldı
                                   margin: const EdgeInsets.symmetric(
-                                      horizontal: 25, vertical: 4),
+                                      horizontal: 25, vertical: 6),
+                                  // Padding 0 -> 8 artırıldı (Container içi dolgu)
+                                  padding: const EdgeInsets.all(8.0),
                                   decoration: BoxDecoration(
                                       color: suanMi
                                           ? (isDark
@@ -707,11 +715,13 @@ class _AnaSayfaState extends State<AnaSayfa> {
                                                 ? contentColor
                                                 : contentColor
                                                     .withValues(alpha: 0.4)),
-                                        size: suanMi ? 24 : 14),
+                                        // --- GÜNCELLEME: İKON BOYUTLARI ---
+                                        size: suanMi ? 30 : 18),
                                     title: Row(children: [
                                       Text(vakitIsimleri[i],
                                           style: TextStyle(
-                                              fontSize: 18,
+                                              // --- GÜNCELLEME: VAKİT İSMİ FONTU ---
+                                              fontSize: 24,
                                               color: contentColor,
                                               fontWeight: suanMi
                                                   ? FontWeight.bold
@@ -727,8 +737,10 @@ class _AnaSayfaState extends State<AnaSayfa> {
                                                         ? "◉"
                                                         : "$alarmDk dk",
                                                     style: TextStyle(
-                                                        fontSize: 12,
-                                                        color: alarmRenk, // MOR veya MAVİ
+                                                        // --- GÜNCELLEME: ALARM BİLGİ FONTU ---
+                                                        fontSize: 14,
+                                                        color:
+                                                            alarmRenk, // MOR veya MAVİ
                                                         fontStyle:
                                                             FontStyle.italic,
                                                         fontWeight: FontWeight
@@ -736,7 +748,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
                                     ]),
                                     trailing: Text(saat,
                                         style: TextStyle(
-                                            fontSize: 20,
+                                            // --- GÜNCELLEME: SAAT FONTU ---
+                                            fontSize: 26,
                                             color: contentColor,
                                             fontWeight: FontWeight.w600)),
                                   ),
@@ -767,10 +780,10 @@ class _AnaSayfaState extends State<AnaSayfa> {
                                           fontWeight: FontWeight.bold,
                                           fontStyle: FontStyle.italic,
                                           fontSize: 12))
-                                  ]))),
+                                ]))),
                       ],
                     ),
-            ], // <--- İŞTE BU KÖŞELİ PARANTEZ EKSİKTİ
+            ],
           ),
         ),
       ),

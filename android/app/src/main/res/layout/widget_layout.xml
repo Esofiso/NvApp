@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SIRADAKİ"
-            android:textColor="#80000000" 
+            android:textColor="#525050" 
             android:textSize="10sp"
             android:textStyle="bold"
             android:letterSpacing="0.1"/>
@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NV"
-                android:textColor="#000000"
+                android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textSize="12sp" 
                 android:layout_marginEnd="6dp"/>
