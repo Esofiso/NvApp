@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="assets/icon.png" alt="NvApp Logo" width="120" height="120">
+<img width="120" height="120" alt="icon2" src="https://github.com/user-attachments/assets/67b34da0-8904-426b-9cdb-0c785039eb54" />
+</div>
+
 # 🌙 NvApp Mobile
 
 **NvApp Mobile**, sadelik ve performansı ön planda tutan, çevrimdışı çalışabilen modern bir namaz vakitleri takip uygulamasıdır. Flutter ile geliştirilmiştir.
