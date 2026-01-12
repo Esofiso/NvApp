@@ -36,7 +36,7 @@
 |<img width="1294" height="876" alt="image" src="https://github.com/user-attachments/assets/241af4bd-224b-43da-9f89-a71896e17df3" />|
 
 ## Projeyi telefonunuzda çalıştırmak için:
-https://github.com/Esofiso/NvApp/releases/tag/v1.0.0
+https://github.com/Esofiso/NvApp/releases
 
 ## Kullanılan Teknolojiler & Paketler
 
