@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch_background"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIRADAKİ"
+            android:textColor="#80000000" 
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/widget_vakit_adi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NV"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="12sp" 
+                android:layout_marginEnd="6dp"/>
+
+            <TextView
+                android:id="@+id/widget_kalan_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--:--"
+                android:textColor="#1976D2"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
