@@ -1,7 +1,7 @@
 name: nvapp_mobile
 description: "NvApp Mobile - Namaz Vakitleri Uygulaması"
 publish_to: 'none'
-version: 1.0.0+1
+version: 2.0.0+2
 
 environment:
   sdk: ^3.10.4
@@ -16,19 +16,23 @@ dependencies:
   flutter_local_notifications: ^17.2.2
   cupertino_icons: ^1.0.8
   url_launcher: ^6.2.5
-  home_widget: ^0.7.0 
+  home_widget: ^0.7.0
+  file_picker: ^8.1.2
+  path_provider: ^2.1.4
+  archive: ^3.6.1
+  xml: ^6.5.0
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.13.1" # Burası düzeldi
+  flutter_launcher_icons: "^0.13.1"
   flutter_lints: ^6.0.0
 
-# İkon yapılandırması (Girintiler çok önemli!)
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icon.png" # Arka planını sildiğin ikonu bu isimle kaydet
+  image_path: "assets/icon.png"
   min_sdk_android: 21
 
 flutter:

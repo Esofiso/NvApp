@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/launch_background"
@@ -17,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SIRADAKİ"
-            android:textColor="#525050" 
+            android:textColor="#525050"
             android:textSize="10sp"
             android:textStyle="bold"
             android:letterSpacing="0.1"/>
@@ -36,17 +37,17 @@
                 android:text="NV"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
-                android:textSize="12sp" 
+                android:textSize="12sp"
                 android:layout_marginEnd="6dp"/>
 
-            <TextView
+            <Chronometer
                 android:id="@+id/widget_kalan_sure"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--:--"
+                android:countDown="true"
                 android:textColor="#1976D2"
                 android:textStyle="bold"
-                android:textSize="22sp"/>
+                android:textSize="24sp"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
